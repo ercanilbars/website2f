@@ -5,7 +5,6 @@ import Landing from "./pages/Landing";
 import LandingWars from './pages/LandingWars';
 import LandingRoadmap from './pages/LandingRoadmap';
 import ottomanGif from './assets/OTTOMANS.gif';
-import ottomanMap from './assets/OttomanMap.gif';
 import warrior from './assets/Warrior.png';
 
 export default function App() {
