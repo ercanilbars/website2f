@@ -3,7 +3,6 @@ import React from "react";
 import LandingLayout from "../components/layouts/LandingLayout";
 
 import map from '../assets/MAP.gif';
-import Wars from "../components/sections/Wars";
 import Roadmap from "../components/sections/Roadmap";
 
 export default function LandingRoadmap() {
