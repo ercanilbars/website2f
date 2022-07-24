@@ -11,7 +11,7 @@ import {
   Text
 } from "@chakra-ui/react";
 
-export default function Hero({
+export default function Roadmap({
   title,
   subtitle,
   image,
@@ -30,7 +30,7 @@ export default function Hero({
       mb={16}
       {...rest}
     >
-      <Stack
+      {/* <Stack
         spacing={4}
         w={{ base: "80%", md: "40%" }}
         align={["center", "center", "flex-start", "flex-start"]}
@@ -55,6 +55,18 @@ export default function Hero({
         >
           {subtitle}
         </Heading>
+        <a href={ctaLink} target="_blank">
+          <Button
+            colorScheme="primary"
+            borderRadius="8px"
+            py="4"
+            px="4"
+            lineHeight="1"
+            size="md"
+          >
+            {ctaText}
+          </Button>
+        </a>
         <Text
           fontSize="xs"
           mt={2}
@@ -63,8 +75,8 @@ export default function Hero({
           opacity="0.6"
         >
         </Text>
-      </Stack>
-      <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+      </Stack> */}
+      <Box w={{ base: "80%", sm: "60%", md: "100%" }} mb={{ base: 12, md: 0 }}>
         {/* TODO: Make this change every X secs */}
         <Image src={image} size="100%" rounded="1rem" shadow="2xl" />
       </Box>
@@ -72,7 +84,7 @@ export default function Hero({
   );
 }
 
-Hero.propTypes = {
+Roadmap.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
   image: PropTypes.string,
@@ -80,7 +92,7 @@ Hero.propTypes = {
   ctaLink: PropTypes.string
 };
 
-Hero.defaultProps = {
+Roadmap.defaultProps = {
   title: "",
   subtitle:
     "",

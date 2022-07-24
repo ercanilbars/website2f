@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Landing from "./pages/Landing";
 import LandingWars from './pages/LandingWars';
+import LandingRoadmap from './pages/LandingRoadmap';
 import ottomanGif from './assets/OTTOMANS.gif';
 import ottomanMap from './assets/OttomanMap.gif';
 import warrior from './assets/Warrior.png';
@@ -23,7 +24,7 @@ export default function App() {
           />
         </Route>
         <Route  path="/roadmap">
-        <Landing 
+        <LandingRoadmap 
           title="The Roadmap"
           subtitle="
           The Ottoman empire was established in 1299. take over the empire

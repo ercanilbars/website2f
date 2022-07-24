@@ -96,7 +96,7 @@ Wars.defaultProps = {
   title: "",
   subtitle:
     "",
-  image: "https://source.unsplash.com/collection/404339/800x600",
-  ctaText: "Create your account now",
-  ctaLink: "/signup"
+  image: "",
+  ctaText: "",
+  ctaLink: "/"
 };
