@@ -1,5 +1,6 @@
 {
   "name": "ottoman-website",
+  "description": "The Ottomans NFT",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
